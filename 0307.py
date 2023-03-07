@@ -428,7 +428,7 @@ print(result)  # ['BANANA', 'ORANGE', 'WATERMELON']
 
 #====리스트 내 중첩된 요소들을 단일 리스트로 만드는 예제
 original_list = [[1, 2], [3, 4], [5, 6]]
-new_list = [num for sublist in original_list for num in sublist]
+new_list = [num for sublist in original_list for num in sublist] #이중 for문처럼 생각
 print(new_list)  # [1, 2, 3, 4, 5, 6]
 
 #====주어진 이차원 리스트에서 짝수만 리스트로 생성하기
