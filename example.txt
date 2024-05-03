@@ -1,5 +1,0 @@
-try:
-    file = open("example.txt", "r") #한글, 인코딩 필요
-    content = file.read()
-except FileNotFoundError:
-    print("File not found. Please check the file name.")
